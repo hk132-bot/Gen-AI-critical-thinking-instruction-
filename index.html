@@ -13,10 +13,10 @@
       window.onbeforeunload = () => window.Unload();
       const LoadContent = function () {
         [
-          "assets/js/project.js",
-          "dist/main.chunk.js",
-          "dist/runtime-main.bundle.js",
-          "dist/vendors-main.chunk.js",
+          "project.js",
+          "main.chunk.js",
+          "runtime-main.bundle.js",
+          "vendors-main.chunk.js",
         ].forEach((src) => {
           script = document.createElement("script");
           script.src = src;
